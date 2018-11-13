@@ -29,4 +29,3 @@ function playOnMouseClick() {
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 window.addEventListener("keydown", playSound);
 keys.forEach(key => key.addEventListener("click", playOnMouseClick));
-// keys.addEventListener("click", playSound);
